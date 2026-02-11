@@ -1,0 +1,37 @@
+# ConnectCare Robots.txt
+# Control search engine crawling behavior
+
+User-agent: *
+
+# Allow crawling of main pages
+Allow: /index.html
+Allow: /about.html
+Allow: /how-we-help.html
+Allow: /faq.html
+Allow: /contact.html
+
+# Allow crawling of service landing pages
+Allow: /wifi-help.html
+Allow: /slow-internet.html
+Allow: /no-internet.html
+
+# Allow crawling of legal pages
+Allow: /privacy-policy.html
+Allow: /terms-conditions.html
+Allow: /refund-policy.html
+Allow: /disclaimer.html
+
+# Disallow crawling of conversion tracking pages
+Disallow: /thank-you.html
+
+# Disallow crawling of error pages
+Disallow: /404.html
+
+# Disallow crawling of assets (optional - uncomment if needed)
+# Disallow: /assets/
+
+# Sitemap location
+Sitemap: https://www.yourdomain.com/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+# Crawl-delay: 10
