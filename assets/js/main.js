@@ -470,7 +470,7 @@ function initChatbot() {
             
             if (action === 'call') {
                 // Redirect to call
-                window.location.href = 'tel:+18887974817';
+                window.location.href = 'tel:+18444387801';
             }
         });
     });
